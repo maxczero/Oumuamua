@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 526.0, 328.0, 54.0, 512.0 ],
+		"rect" : [ 526.0, 198.0, 737.0, 642.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1244.0, 2832.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-105",
 					"maxclass" : "newobj",
@@ -94,7 +106,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 2003.066681236028671, 1544.333339929580688, 472.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "jit.phys.ghost @shape sphere @central_force 5. @scale 1. @central_mode decreases @central_exp 2."
 				}
 
@@ -180,7 +191,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1964.066681236028671, 1234.333339929580688, 472.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "jit.phys.ghost @shape sphere @central_force 5. @scale 1. @central_mode decreases @central_exp 2."
 				}
 
@@ -266,7 +276,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1150.066681236028671, 1570.333339929580688, 472.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "jit.phys.ghost @shape sphere @central_force 5. @scale 1. @central_mode decreases @central_exp 2."
 				}
 
@@ -1650,7 +1659,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 51.0, 49.0, 24.0, 24.0 ]
+					"patching_rect" : [ 52.0, 46.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2180,6 +2189,13 @@
 					"destination" : [ "obj-20", 0 ],
 					"order" : 2,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
