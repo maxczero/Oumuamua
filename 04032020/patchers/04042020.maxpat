@@ -70,7 +70,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 1747.333359122276306, 441.000043272972107, 232.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "jit.expr @expr in[0].p[0]*snorm[0]*0.1+0.1 in[0].p[1]*snorm[1]*0.1+0.1"
 				}
 
@@ -924,7 +923,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 21.0, 201.0, 224.0, 22.0 ],
+					"patching_rect" : [ 21.0, 230.0, 224.0, 22.0 ],
 					"text" : "jit.world roidz @phys_worldname r_phys"
 				}
 
@@ -950,6 +949,18 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.0, 287.0, 188.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "erase_color",
+					"id" : "obj-5",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 21.0, 200.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1372,6 +1383,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
