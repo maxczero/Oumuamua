@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 86.0, 1298.0, 886.0 ],
+		"rect" : [ 516.0, 79.0, 793.0, 679.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -112,7 +112,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -178,7 +178,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 342.0, 205.0, 150.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "scale to screen coordinates"
 								}
 
@@ -407,8 +406,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -418,8 +417,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -554,8 +553,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 489.022509455680847, 105.0, 24.0 ],
-					"text" : "192.168.1.2",
+					"patching_rect" : [ 222.0, 489.022509455680847, 111.0, 24.0 ],
+					"text" : "192.168.1.152",
 					"textcolor" : [ 0.125490196078431, 0.125490196078431, 0.125490196078431, 1.0 ]
 				}
 
@@ -572,7 +571,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -605,7 +604,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -697,7 +695,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 133.0, 342.0, 101.0, 20.0 ],
-									"text" : "192.168.1.2"
+									"text" : "192.168.1.152"
 								}
 
 							}
@@ -872,8 +870,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"fontsize" : [ 11.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -883,8 +881,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"fontsize" : [ 10.0 ],
-									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+									"fontname" : [ "Arial Bold" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1029,7 +1027,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 310.0, 206.0, 50.0, 35.0 ],
-					"text" : "717 526"
+					"text" : "640 480"
 				}
 
 			}
@@ -2150,7 +2148,7 @@
 					"maxclass" : "mira.frame",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.999996781349182, 551.400599479675293, 256.000006437301636, 182.0 ]
+					"patching_rect" : [ 21.999996781349182, 551.400599479675293, 256.0, 181.999995423480982 ]
 				}
 
 			}
@@ -2166,6 +2164,18 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "floating",
+					"id" : "obj-10",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 210.0, 165.0, 150.0, 22.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2178,6 +2188,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
 					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -2993,11 +3010,11 @@
  ],
 		"parameters" : 		{
 			"obj-112" : [ "toggle[5]", "toggle[5]", 0 ],
-			"obj-64" : [ "toggle[4]", "toggle[4]", 0 ],
-			"obj-3" : [ "toggle", "toggle", 0 ],
 			"obj-17" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-64" : [ "toggle[4]", "toggle[4]", 0 ],
 			"obj-32" : [ "toggle[2]", "toggle[2]", 0 ],
 			"obj-54" : [ "toggle[3]", "toggle[3]", 0 ],
+			"obj-3" : [ "toggle", "toggle", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -3006,7 +3023,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mira.mt.touch.maxpat",
-				"bootpath" : "C74:/packages/mira/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/Oumuamua/Oumuamua/04132020/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3051,8 +3069,8 @@
 				"name" : "Default M4L",
 				"default" : 				{
 					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
@@ -3062,8 +3080,8 @@
 				"name" : "Default M4L Poletti",
 				"default" : 				{
 					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
+					"fontname" : [ "Arial Bold" ]
 				}
 ,
 				"parentstyle" : "",
