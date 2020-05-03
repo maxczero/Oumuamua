@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1089.0, 2134.5, 402.0, 476.0 ],
+					"patching_rect" : [ 1905.0, 2139.0, 402.0, 476.0 ],
 					"text" : "2 May 2020\n\nADDED:\n\n- sound design element that takes advatage of ml.som mira taps to generate an ambient background w/ a satisfying range of sonic possibilities.\n\nLeft TODO:\n\n- Improve physics information retrieval. \n\n- Encountered a bug/issue: when tap is enabled the jit.phspicker seems to stop responding/ repsonds poorly to touch messages\n\n- add sound design voices that react to improved ohysics information to come\n"
 				}
 
@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.0, 2329.0, 150.0, 141.0 ],
+					"patching_rect" : [ 33.0, 2167.0, 150.0, 141.0 ],
 					"text" : "- navigating the self-organising map alters the rythmic/timbral/harmonic qualities of the background ambience\n\n- we recommend allowing one setting to run for at least a few moments."
 				}
 
@@ -303,13 +303,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-253",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 840.0, 180.0, 35.0 ],
-					"text" : "touch 1. 0. 231.535835 82.909091"
+					"patching_rect" : [ 140.0, 840.0, 180.0, 22.0 ],
+					"text" : "touch 1. 0. 0.307167 0.386364"
 				}
 
 			}
@@ -625,13 +624,15 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.015686274509804, 0.996078431372549, 0.23921568627451, 1.0 ],
 					"id" : "obj-146",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 343.0, 2583.0, 64.0, 22.0 ],
-					"text" : "ml.som 32"
+					"text" : "ml.som 32",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
 			}
