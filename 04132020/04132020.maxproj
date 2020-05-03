@@ -2,8 +2,8 @@
 	"name" : "04132020",
 	"version" : 1,
 	"creationdate" : 3669658100,
-	"modificationdate" : 3669658100,
-	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
+	"modificationdate" : 3671296702,
+	"viewrect" : [ 223.0, 150.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,16 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"tap-synth.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"tri-synth.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
